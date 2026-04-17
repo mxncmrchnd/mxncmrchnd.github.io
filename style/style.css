@@ -5,6 +5,10 @@ body {
     color: #0a2a66;
 }
 
+h1 {
+    margin-bottom: 1rem;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -58,8 +62,17 @@ section {
     margin-bottom: 2rem;
 }
 
-h1 {
-    margin-bottom: 1rem;
+section a,
+section a:visited,
+section a :link {
+    color: #062055;
+    text-decoration: underline;
+}
+
+section a:hover,
+section a:active {
+    background-color: #0620551f;
+    font-style: italic;
 }
 
 .carousel {
@@ -87,7 +100,7 @@ h1 {
 .card {
     background: #78a1ec1f;
     border: 1px solid #0a2a66;
-    border-radius: 10px;
+    border-radius:  0px;
     padding: 1.5rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     height: 100%;
@@ -113,6 +126,89 @@ h1 {
 
 .carousel-arrow.right {
     right: 0;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 100px 50%;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #0a2a66;
+    background: #f8f9ff;
+    padding: 0.8rem 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+textarea {
+    grid-column: 2;
+    height: 15vh;
+    resize: vertical;
+    align-self: start;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #0d41a1;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(10, 42, 102, 0.1);
+    transform: translateY(-2px);
+}
+
+.submit-container {
+    grid-column: 2;
+    justify-self: start;
+    margin-top: 1rem;
+}
+
+#fSubmit {
+    color: #0a2a66;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-bottom: 2px solid #0a2a66;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: inherit;
+    transition: all 0.3s ease;
+    border-radius: 0px;
+    width: auto;
+    height: auto;
+}
+
+#fSubmit:hover {
+    color: #062055;
+    background-color: #0620551f;
+    font-style: italic;
+}
+
+#fSubmit:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    form {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+    
+    input, textarea {
+        width: 100%;
+    }
+
+    .submit-container {
+        grid-column: 1;
+    }
 }
 
 /* Mobile: 1 card visible */

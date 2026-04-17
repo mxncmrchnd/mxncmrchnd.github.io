@@ -1,102 +1,131 @@
-<!DOCTYPE html>
-<html lang='fr'>
+<!doctype html>
+<html lang="fr">
 
 <head>
-    <meta charset='UTF-8' />
-    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maxence Marchand</title>
     <!-- Import de la police -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style/style.css" />
 </head>
 
 <body>
-
     <nav>
-        <a href='#about'>Présentation</a>
-        <a href='#education'>Formations</a>
-        <a href='#experiences'>Expériences</a>
-        <a href='#skills'>Compétences</a>
-        <a href='#projects'>Réalisations</a>
-        <a href='#contact'>Contact</a>
+        <a href="#about">Présentation</a>
+        <a href="#education">Formations</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Réalisations</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <div class='container'>
-
-        <section id='about'>
+    <div class="container">
+        <section id="about">
             <h1>Maxence Marchand</h1>
-            <p>Étudiant en Master Observation de la Terre et Géomatique à l'Université de Strasbourg, stagiaire au
-                Laboratoire Image, Ville, Environnement.</p>
-            <p>Intéressé par la télédétection (LiDAR, imagerie satellite) et la géoarchéologie.</p>
-            <p>Développeur amateur en traitement de signal numérique, producteur de musique électronique.</p>
+            <p>
+                Étudiant en
+                <a href="https://formations.unistra.fr/fr/formations/master-MAS/master-geomatique-ME60/observation-de-la-terre-et-geomatique-PR446.html"
+                    target="blank">Master Observation de la Terre et Géomatique</a>
+                à l'Université de Strasbourg, stagiaire au <a href='https://live.unistra.fr/' target='blank'>Laboratoire
+                    Image, Ville,
+                    Environnement</a>.
+            </p>
+            <p>
+                Intéressé par la télédétection (LiDAR, imagerie satellite) et la
+                géoarchéologie.
+            </p>
+            <p>
+                Développeur amateur en traitement de signal numérique, producteur de
+                musique électronique.
+            </p>
         </section>
 
-        <section id='education'>
+        <section id="education">
             <h1>Formations</h1>
             <p>Your academic background.</p>
         </section>
 
-        <section id='experiences'>
+        <section id="experiences">
             <h1>Expériences</h1>
             <p>Internships, jobs, or relevant experience.</p>
         </section>
 
-        <section id='skills'>
+        <section id="skills">
             <h1>Compétences</h1>
             <p>List of technical and soft skills.</p>
         </section>
 
-        <section id='projects'>
+        <section id="projects">
             <h1>Réalisations</h1>
 
-            <div class='carousel'>
-                <button class='carousel-arrow left' onclick='moveSlide(-1)'>❮</button>
-                <div class='carousel-viewport'>
-                    <div class='carousel-track' id='carouselTrack'>
-                        <div class='carousel-item'>
-                            <div class='card'>
+            <div class="carousel">
+                <button class="carousel-arrow left" onclick="moveSlide(-1)">❮</button>
+                <div class="carousel-viewport">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-item">
+                            <div class="card">
                                 <h2>Adelie</h2>
-                                <p>Adelie est un synthétiseur soustractif virtuel, développé en C++.</p>
+                                <p>
+                                    Adelie est un synthétiseur soustractif virtuel, développé en
+                                    C++.
+                                </p>
                             </div>
                         </div>
-                        <div class='carousel-item'>
-                            <div class='card'>
+                        <div class="carousel-item">
+                            <div class="card">
                                 <h2>Penguin's Transit Toolbox</h2>
-                                <p>PTT est une librairie python pour manipuler les flux GTFS (projet actuellement en
-                                    pause).</p>
+                                <p>
+                                    PTT est une librairie python pour manipuler les flux GTFS
+                                    (projet actuellement en pause).
+                                </p>
                             </div>
                         </div>
-                        <div class='carousel-item'>
-                            <div class='card'>
+                        <div class="carousel-item">
+                            <div class="card">
                                 <h2>Pynth</h2>
-                                <p>Pynth est un lecteur MIDI et synthétiseur soustractif, développé en python.</p>
+                                <p>
+                                    Pynth est un lecteur MIDI et synthétiseur soustractif,
+                                    développé en python.
+                                </p>
                             </div>
                         </div>
-                        <div class='carousel-item'>
-                            <div class='card'>
+                        <div class="carousel-item">
+                            <div class="card">
                                 <h2>Waddle</h2>
                                 <p>Waddle est un plugin de sidechain, développé en C++.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class='carousel-arrow right' onclick='moveSlide(1)'>❯</button>
+                <button class="carousel-arrow right" onclick="moveSlide(1)">❯</button>
             </div>
-
         </section>
 
-        <section id='contact'>
+        <section id="contact">
             <h1>Contact</h1>
-            <p>Email / LinkedIn / GitHub</p>
+            <p>Retrouvez-moi sur <a href='https://www.linkedin.com/in/m-marchand/' target='blank'>LinkedIn</a> et <a
+                    href='https://github.com/mxncmrchnd' target='blank'>Github</a>.</p>
+            <!-- Formulaire de contact -->
+            <p>Ou envoyez-moi un email : </p>
+            <form action='https://formspree.io/f/mjgjwwee' method='post'>
+                <label for='fName'>Nom</label>
+                <input type='text' name='fName' id='fName' required />
+                <label for='fEmail'>Email</label>
+                <input type='email' name='fEmail' id='fEmail' required />
+                <label for='fMessage'>Message</label>
+                <textarea name='fMessage' id='fMessage' placeholder='Votre message'></textarea>
+                <div class="submit-container">
+                    <input type='submit' id='fSubmit' value='Envoyer' />
+                </div>
+            </form>
         </section>
-
     </div>
 
-    <script src="scripts/script.js"></script>
-
+    <script src="scripts/carousel.js"></script>
 </body>
 
 </html>
