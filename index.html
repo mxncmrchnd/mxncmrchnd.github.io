@@ -1,35 +1,37 @@
 <!doctype html>
-<html lang="fr">
+<html lang='fr'>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width = device-width, initial-scale = 1.0' />
     <title>Maxence Marchand</title>
     <!-- Import de la police -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link href='https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap'
+        rel='stylesheet' />
+    <link rel='stylesheet' href='style/style.css' />
+    <link rel='stylesheet' href='style/background.css' />
 </head>
 
 <body>
+    <div id='bg'></div>
     <nav>
-        <a href="#about">Présentation</a>
-        <a href="#education">Formations</a>
-        <a href="#experiences">Expériences</a>
-        <a href="#skills">Compétences</a>
-        <a href="#projects">Réalisations</a>
-        <a href="#contact">Contact</a>
+        <a href='#about'>Présentation</a>
+        <a href='#education'>Formations</a>
+        <a href='#experiences'>Expériences</a>
+        <a href='#skills'>Compétences</a>
+        <a href='#projects'>Réalisations</a>
+        <a href='#contact'>Contact</a>
     </nav>
 
-    <div class="container">
-        <section id="about">
+    <div class='container'>
+        <section id='about'>
             <h1>Maxence Marchand</h1>
             <p>
                 Étudiant en
-                <a href="https://formations.unistra.fr/fr/formations/master-MAS/master-geomatique-ME60/observation-de-la-terre-et-geomatique-PR446.html"
-                    target="blank">Master Observation de la Terre et Géomatique</a>
+                <a href='https://formations.unistra.fr/fr/formations/master-MAS/master-geomatique-ME60/observation-de-la-terre-et-geomatique-PR446.html'
+                    target='blank'>Master Observation de la Terre et Géomatique</a>
                 à l'Université de Strasbourg, stagiaire au <a href='https://live.unistra.fr/' target='blank'>Laboratoire
                     Image, Ville,
                     Environnement</a>.
@@ -44,68 +46,242 @@
             </p>
         </section>
 
-        <section id="education">
+        <section id='education'>
             <h1>Formations</h1>
             <p>Your academic background.</p>
         </section>
 
-        <section id="experiences">
+        <section id='experiences'>
             <h1>Expériences</h1>
             <p>Internships, jobs, or relevant experience.</p>
         </section>
 
-        <section id="skills">
+        <section id='skills'>
             <h1>Compétences</h1>
-            <p>List of technical and soft skills.</p>
+            <h3>Développement web et dataviz</h3>
+            <div class='badges'>
+                <span class='badge'>
+                    <span class='dot' style='background: #e44b23;'></span>
+                    HTML
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #563d7c;'></span>
+                    CSS
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #f1e05a;'></span>
+                    JavaScript
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #295daa;'></span>
+                    MapLibre
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #f79144;'></span>
+                    D3.js
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #bae569;'></span>
+                    Leaflet
+                </span>
+            </div>
+            <br>
+            <h3>Programmation</h3>
+            <div class='badges'>
+                <span class='badge'>
+                    <span class='dot' style='background: #3572A5;'></span>
+                    Python
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #198ce7;'></span>
+                    R
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #b07219;'></span>
+                    Java
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #f34b7d;'></span>
+                    C++
+                </span>
+            </div>
+            <br>
+            <h3>SIG et géomatique</h3>
+            <div class='badges'>
+                <span class='badge'>
+                    <span class='dot' style='background: #82a927;'></span>
+                    QGIS
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #0087d7;'></span>
+                    ArcGIS Pro et Online
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #5a5a5a;'></span>
+                    LiDAR et photogrammétrie
+                </span>
+            </div>
+            <br>
+            <h3>Gestion de données</h3>
+            <div class='badges'>
+                <span class='badge'>
+                    <span class='dot' style='background: #dad8d8;'></span>
+                    PL/SQL
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #40d47e;'></span>
+                    JSON
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #0bb9b3;'></span>
+                    STAC
+                </span>
+            </div>
+            <br>
+            <h3>Langues</h3>
+            <p style='font-size: x-large;'>🇫🇷 ★★★★★</p>
+            <p>Langue maternelle</p>
+            <p style='font-size: x-large;'>🇬🇧 ★★★★☆</p>
+            <p>Niveau CLES B2</p>
+            <p style='font-size: x-large;'>🇩🇪 ★★★☆☆</p>
+            <p>Niveau scolaire</p>
         </section>
 
-        <section id="projects">
+        <section id='projects'>
             <h1>Réalisations</h1>
 
-            <div class="carousel">
-                <button class="carousel-arrow left" onclick="moveSlide(-1)">❮</button>
-                <div class="carousel-viewport">
-                    <div class="carousel-track" id="carouselTrack">
-                        <div class="carousel-item">
-                            <div class="card">
-                                <h2>Adelie</h2>
-                                <p>
-                                    Adelie est un synthétiseur soustractif virtuel, développé en
-                                    C++.
-                                </p>
+            <div class='carousel'>
+                <button class='carousel-arrow left' onclick='moveSlide(-1)'>❮</button>
+                <div class='carousel-viewport'>
+                    <div class='carousel-track' id='carouselTrack'>
+                        <div class='carousel-item'>
+                            <div class='card'>
+                                <h2>400 ans de la Marine Nationale</h2>
+                                <div class='card-body'>
+                                    <p>
+                                        Carte interactive résumant l'histoire de la Marine Nationale en 11 dates.
+                                    </p>
+                                    <img src='./assets/img/400ans.png' alt='Capture d écran de la visualisation' />
+                                    <p>
+                                        Disponible sur <a href='https://mxncmrchnd.github.io/400ansMarineNationale/'
+                                            target='blank'>Github</a>.
+                                    </p>
+                                </div>
+                                <footer class='card-footer'>
+                                    <span class='badge'>
+                                        <span class='dot' style='background: #e44b23;'></span>
+                                        HTML
+                                    </span>
+                                    <span class='badge'>
+                                        <span class='dot' style='background: #563d7c;'></span>
+                                        CSS
+                                    </span>
+                                    <span class='badge'>
+                                        <span class='dot' style='background: #f1e05a;'></span>
+                                        JavaScript
+                                    </span>
+                                    <span class='badge'>
+                                        <span class='dot' style='background: #295daa;'></span>
+                                        MapLibre
+                                    </span>
+                                </footer>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                                <h2>Penguin's Transit Toolbox</h2>
-                                <p>
-                                    PTT est une librairie python pour manipuler les flux GTFS
-                                    (projet actuellement en pause).
-                                </p>
+                        <div class='carousel-item'>
+                            <div class='card'>
+                                <div class='card-body'>
+                                    <h2>Adelie</h2>
+                                    <p>
+                                        Adelie est un synthétiseur soustractif virtuel, développé en
+                                        C++.
+                                    </p>
+                                    <img src='./assets/img/adelie.png' / alt='Capture d écran du synthé'>
+                                    <p>
+                                        Disponible sur <a href='https://github.com/mxncmrchnd/adelie'
+                                            target='blank'>Github</a>.
+                                    </p>
+                                </div>
+                                <footer class='card-footer'>
+                                    <span class='badge'>
+                                        <span class='dot' style='background: #f34b7d;'></span>
+                                        C++
+                                    </span>
+                                </footer>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                                <h2>Pynth</h2>
-                                <p>
-                                    Pynth est un lecteur MIDI et synthétiseur soustractif,
-                                    développé en python.
-                                </p>
+                        <div class='carousel-item'>
+                            <div class='card'>
+                                <div class='card-body'>
+                                    <h2>Penguin's Transit Toolbox</h2>
+                                    <p>
+                                        PTT est une librairie python pour manipuler les flux GTFS
+                                        (projet actuellement en pause).
+                                    </p>
+                                    <p>
+                                        Disponible sur <a src='https://github.com/mxncmrchnd/penguinstransittoolbox'
+                                            target='blank'> Github</a> et <a
+                                            href='https://pypi.org/project/penguinstransittoolbox/'
+                                            target='blank'>PyPi</a>.
+                                    </p>
+                                    <p><a href='https://mxncmrchnd.github.io/penguinstransittoolbox/penguinstransittoolbox.html'
+                                            target='blank'>Documentation</a>.</p>
+                                </div>
+                                <footer class='card-footer'>
+                                    <span class='badge'>
+                                        <span class='dot' style='background: #3572A5;'></span>
+                                        Python
+                                    </span>
+                                </footer>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="card">
-                                <h2>Waddle</h2>
-                                <p>Waddle est un plugin de sidechain, développé en C++.</p>
+                        <div class='carousel-item'>
+                            <div class='card'>
+                                <div class='card-body'>
+                                    <h2>Pynth</h2>
+                                    <p>
+                                        Pynth est un lecteur MIDI et synthétiseur soustractif,
+                                        développé en python.
+                                    </p>
+                                    <img src='./assets/img/pynth.png' alt='Capture d écran du programme' />
+                                    <p>
+                                        Disponible sur <a href='https://github.com/mxncmrchnd/pynth'
+                                            target='blank'>Github</a>.
+                                    </p>
+                                </div>
+                                <footer class='card-footer'>
+                                    <span class='badge'>
+                                        <span class='dot' style='background: #3572A5;'></span>
+                                        Python
+                                    </span>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class='carousel-item'>
+                            <div class='card'>
+                                <div id='card-body'>
+                                    <h2>Waddle</h2>
+                                    <p>Waddle est un plugin de sidechain, développé en C++.</p>
+                                    <img src='./assets/img/waddle.png' alt='Capture d écran du plugin' />
+                                    <p>
+                                        Disponible sur <a href='https://github.com/mxncmrchnd/waddle'
+                                            target='blank'>Github</a>.
+                                    </p>
+                                </div>
+                                <footer class='card-footer'>
+                                    <span class='badge'>
+                                        <span class='dot' style='background: #f34b7d;'></span>
+                                        C++
+                                    </span>
+                                </footer>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-arrow right" onclick="moveSlide(1)">❯</button>
+                <button class='carousel-arrow right' onclick='moveSlide(1)'>❯</button>
             </div>
         </section>
 
-        <section id="contact">
+        <section id='contact'>
             <h1>Contact</h1>
             <p>Retrouvez-moi sur <a href='https://www.linkedin.com/in/m-marchand/' target='blank'>LinkedIn</a> et <a
                     href='https://github.com/mxncmrchnd' target='blank'>Github</a>.</p>
@@ -118,14 +294,15 @@
                 <input type='email' name='fEmail' id='fEmail' required />
                 <label for='fMessage'>Message</label>
                 <textarea name='fMessage' id='fMessage' placeholder='Votre message'></textarea>
-                <div class="submit-container">
+                <div class='submit-container'>
                     <input type='submit' id='fSubmit' value='Envoyer' />
                 </div>
             </form>
         </section>
     </div>
 
-    <script src="scripts/carousel.js"></script>
+    <script src='scripts/carousel.js'></script>
+    <script src='./scripts/background.js'></script>
 </body>
 
 </html>
