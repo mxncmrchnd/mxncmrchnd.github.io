@@ -30,23 +30,29 @@
 
     <div class='container'>
         <section id='about'>
-            <h1>Maxence Marchand</h1>
-            <p>
-                Étudiant en
-                <a href='https://formations.unistra.fr/fr/formations/master-MAS/master-geomatique-ME60/observation-de-la-terre-et-geomatique-PR446.html'
-                    target='blank'>Master Observation de la Terre et Géomatique</a>
-                à l'Université de Strasbourg, stagiaire au <a href='https://live.unistra.fr/' target='blank'>Laboratoire
-                    Image, Ville,
-                    Environnement</a>.
-            </p>
-            <p>
-                Intéressé par la télédétection (LiDAR, imagerie satellite) et la
-                géoarchéologie.
-            </p>
-            <p>
-                Développeur amateur en traitement de signal numérique, producteur de
-                musique électronique.
-            </p>
+            <div id='about_text'>
+                <h1>Maxence Marchand</h1>
+                <p>
+                    Étudiant en
+                    <a href='https://formations.unistra.fr/fr/formations/master-MAS/master-geomatique-ME60/observation-de-la-terre-et-geomatique-PR446.html'
+                        target='blank'>Master Observation de la Terre et Géomatique</a>
+                    à l'Université de Strasbourg, stagiaire au <a href='https://live.unistra.fr/'
+                        target='blank'>Laboratoire
+                        Image, Ville,
+                        Environnement</a>.
+                </p>
+                <p>
+                    Intéressé par la télédétection (LiDAR, imagerie satellite) et la
+                    géoarchéologie.
+                </p>
+                <p>
+                    Développeur amateur en traitement de signal numérique, producteur de
+                    musique électronique.
+                </p>
+            </div>
+            <div id='about_photo'>
+                <img src='./assets/img/photo.jpg' alt='avatar' id='avatar' />
+            </div>
         </section>
 
         <section id='education'>
@@ -59,7 +65,215 @@
 
         <section id='experiences'>
             <h1>Expériences</h1>
-            <p>En cours de réalisation</p>
+            <div class='timeline-wrapper'>
+                <div class='timeline-scroll' id='timelineScroll'>
+                    <div class='timeline-track' id='timelineTrack'>
+
+                        <div class='timeline-item'>
+                            <div class='timeline-card'>
+                                <div class='card'>
+                                    <h2>Stagiaire</h2>
+                                    <h3>Laboratoire Image, Ville, Environnement (UMR 7362 LIVE)</h3>
+                                    <div class='card-body'>
+                                        <p class='timeline-date'>Mars à Août 2026, Strasbourg</p>
+                                        <p>
+                                            Conception et développement de cartographies avancées et de
+                                            datavisualisations de l’écosystème Surfaces Continentales.
+                                        </p>
+                                    </div>
+                                    <footer class='card-footer'>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #e44b23;'></span>
+                                            HTML
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #563d7c;'></span>
+                                            CSS
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #f1e05a;'></span>
+                                            JavaScript
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #295daa;'></span>
+                                            MapLibre
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #f79144;'></span>
+                                            D3.js
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #40d47e;'></span>
+                                            JSON
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #0bb9b3;'></span>
+                                            STAC
+                                        </span>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class='timeline-stem'></div>
+                            <div class='timeline-dot'></div>
+                        </div>
+
+                        <div class='timeline-item'>
+                            <div class='timeline-card'>
+                                <div class='card'>
+                                    <h2>Travail d'Étude et de Recherche</h2>
+                                    <h3>Université de Strasbourg</h3>
+                                    <div class='card-body'>
+                                        <p class='timeline-date'>Mai-Juin 2025, Strasbourg</p>
+                                        <p>
+                                            Simulation rétrospective de l’érosion sur le site d’Eridu (Irak).
+                                        </p>
+                                    </div>
+                                    <footer class='card-footer'>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #5a5a5a;'></span>
+                                            LiDAR et photogrammétrie
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #c30000;'></span>
+                                            Modélisation, système multi-agents
+                                        </span>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class='timeline-stem'></div>
+                            <div class='timeline-dot'></div>
+                        </div>
+
+                        <div class='timeline-item'>
+                            <div class='timeline-card'>
+                                <div class='card'>
+                                    <h2>Hôte de caisse/Employé commercial - vendeur technique</h2>
+                                    <h3>Centre E.Leclerc CHAMDIS</h3>
+                                    <div class='card-body'>
+                                        <p class='timeline-date'>Août 2022 à Août 2024, Saint-Brice-Courcelles</p>
+                                        <p>
+                                            Vendeur technique aux rayons téléphonie, informatique, gros et petit
+                                            électroménager.
+                                        </p>
+                                    </div>
+                                    <footer class='card-footer'>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #06c;'></span>
+                                            Service client
+                                        </span>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class='timeline-stem'></div>
+                            <div class='timeline-dot'></div>
+                        </div>
+
+                        <div class='timeline-item'>
+                            <div class='timeline-card'>
+                                <div class='card'>
+                                    <h2>Stagiaire</h2>
+                                    <h3>Groupe d'Études sur les Géomatériaux et Environnements Anthropisés (UR 3795
+                                        GEGENA)</h3>
+                                    <div class='card-body'>
+                                        <p class='timeline-date'>Février à Mai 2024, Reims</p>
+                                        <p>
+                                            Approche archéogéomorphologique (SIG, LIDAR) des fortifications de type
+                                            "Séré de Rivières" : Exemple du fort de Saint-Thierry.
+                                        </p>
+                                    </div>
+                                    <footer class='card-footer'>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #82a927;'></span>
+                                            QGIS
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #5a5a5a;'></span>
+                                            LiDAR et photogrammétrie
+                                        </span>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class='timeline-stem'></div>
+                            <div class='timeline-dot'></div>
+                        </div>
+
+                        <div class='timeline-item'>
+                            <div class='timeline-card'>
+                                <div class='card'>
+                                    <h2>Service Civique</h2>
+                                    <h3>Collège du Mont d'Hor</h3>
+                                    <div class='card-body'>
+                                        <p class='timeline-date'>Octobre 2020 à Juin 2021, Saint-Thierry</p>
+                                    </div>
+                                    <footer class='card-footer'>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class='timeline-stem'></div>
+                            <div class='timeline-dot'></div>
+                        </div>
+
+                        <div class='timeline-item'>
+                            <div class='timeline-card'>
+                                <div class='card'>
+                                    <h2>Stagiaire</h2>
+                                    <h3>SaintEx Culture Numérique</h3>
+                                    <div class='card-body'>
+                                        <p class='timeline-date'>Avril à Juillet 2019, Reims</p>
+                                        <p>
+                                            Réalisation d'outils de médiation numérique et participation aux évènements.
+                                        </p>
+                                    </div>
+                                    <footer class='card-footer'>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #178701;'></span>
+                                            C#
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #949697;'></span>
+                                            Unity
+                                        </span>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class='timeline-stem'></div>
+                            <div class='timeline-dot'></div>
+                        </div>
+
+                        <div class='timeline-item'>
+                            <div class='timeline-card'>
+                                <div class='card'>
+                                    <h2>Stagiaire</h2>
+                                    <h3>Centre de Recherche en Sciences et Technologies de l'Information et de la
+                                        Communication (UR 3804 CReSTIC)</h3>
+                                    <div class='card-body'>
+                                        <p class='timeline-date'>Avril à Juin 2018, Reims</p>
+                                        <p>
+                                            Réalisation d'une simulation virtuelle réaliste de paramètres intrinsèques
+                                            de caméra, en lien avec <a
+                                                href='https://crestic.univ-reims.fr/fr/projets/anr-revery'
+                                                target='blank'>le projet ReVeRY</a>
+                                        </p>
+                                    </div>
+                                    <footer class='card-footer'>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #178701;'></span>
+                                            C#
+                                        </span>
+                                        <span class='badge'>
+                                            <span class='dot' style='background: #949697;'></span>
+                                            Unity
+                                        </span>
+                                    </footer>
+                                </div>
+                            </div>
+                            <div class='timeline-stem'></div>
+                            <div class='timeline-dot'></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id='skills'>
@@ -109,6 +323,10 @@
                 <span class='badge'>
                     <span class='dot' style='background: #f34b7d;'></span>
                     C++
+                </span>
+                <span class='badge'>
+                    <span class='dot' style='background: #178701;'></span>
+                    C#
                 </span>
             </div>
             <br>
