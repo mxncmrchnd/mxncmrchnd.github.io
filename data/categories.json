@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "SIG et Géomatique"
+    },
+    {
+        "id": 2,
+        "name": "Développement web et Dataviz"
+    },
+    {
+        "id": 3,
+        "name": "Programmation"
+    },
+    {
+        "id": 4,
+        "name": "Gestion de données"
+    },
+    {
+        "id": 5,
+        "name": "Bureautique"
+    },
+    {
+        "id": 6,
+        "name": "Suite Adobe"
+    },
+    {
+        "id": 7,
+        "name": "Musique & design sonore"
+    }
+]

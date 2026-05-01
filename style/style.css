@@ -247,8 +247,6 @@ section a:active {
   padding-bottom: 20px; /* reduced space since line is gone */
 }
 
-
-
 .timeline-item {
   flex: 0 0 40%;
   display: flex;

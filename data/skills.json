@@ -1,0 +1,37 @@
+[
+    { "id": "html", "name": "HTML", "color": "#e44b23", "category": 2 },
+    { "id": "css", "name": "CSS", "color": "#563d7c", "category": 2 },
+    { "id": "javascript", "name": "JavaScript", "color": "#f1e05a", "category": 2 },
+    { "id": "maplibre", "name": "MapLibre", "color": "#295daa", "category": 2 },
+    { "id": "d3js", "name": "D3.js", "color": "#f79144", "category": 2 },
+    { "id": "leaflet", "name": "Leaflet", "color": "#bae569", "category": 2 },
+
+    { "id": "python", "name": "Python", "color": "#3572A5", "category": 3 },
+    { "id": "r", "name": "R", "color": "#198ce7", "category": 3 },
+    { "id": "java", "name": "Java", "color": "#b07219", "category": 3 },
+    { "id": "cpp", "name": "C++", "color": "#f34b7d", "category": 3 },
+    { "id": "csharp", "name": "C#", "color": "#178701", "category": 3 },
+
+    { "id": "qgis", "name": "QGIS", "color": "#82a927", "category": 1 },
+    { "id": "arcgis", "name": "ArcGIS Pro et Online", "color": "#0087d7", "category": 1 },
+    { "id": "lidar-photogrammetrie", "name": "LiDAR et photogrammétrie", "color": "#5a5a5a", "category": 1 },
+    { "id": "imagerie-satellite", "name": "Traitement d'images satellites", "color": "#142963", "category": 1 },
+    { "id": "interferometrie", "name": "Interférométrie", "color": "#ff00ff", "category": 1 },
+
+    { "id": "plsql", "name": "PL/SQL", "color": "#dad8d8", "category": 4 },
+    { "id": "json", "name": "JSON", "color": "#40d47e", "category": 4 },
+    { "id": "stac", "name": "STAC", "color": "#0bb9b3", "category": 4 },
+
+    { "id": "word", "name": "Microsoft Word", "color": "#07289f", "category": 5 },
+    { "id": "excel", "name": "Microsoft Excel", "color": "#297a2c", "category": 5 },
+    { "id": "powerpoint", "name": "Microsoft PowerPoint", "color": "#a0081b", "category": 5 },
+    { "id": "latex", "name": "LaTeX", "color": "#c15555", "category": 5 },
+    { "id": "linux", "name": "Environnements Linux", "color": "#f3c60d", "category": 5 },
+
+    { "id": "illustrator", "name": "Illustrator", "color": "#fd7b01", "category": 6 },
+    { "id": "photoshop", "name": "Photoshop", "color": "#00c6fe", "category": 6 },
+    { "id": "premiere", "name": "Premiere", "color": "#eb76fd", "category": 6 },
+
+    { "id": "flstudio", "name": "FL Studio", "color": "#ff7629", "category": 7 },
+    { "id": "juce", "name": "JUCE", "color": "#add14c", "category": 7 }
+]
